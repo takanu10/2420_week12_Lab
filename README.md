@@ -1,15 +1,14 @@
-<h1> 2420 week12 Lab Nginx and UFW Implementation</h1>
+# 2420 week12 Lab nginx and UFW Implementation
 
-<h2> Team Members </h2>
+## Team Members 
 
-<ul>
-  <li>Darren Cheng </li>
-  <li>Mihail Picus</li>
-</ul>
+- Darren Cheng
+- Mihail Picus
 
-<h2>Procedures</h2>
+## Procedures
 
-<p> This readme will assume that a droplet called <strong>web-one</strong> has been created already.</p>
+This readme will assume that a droplet server called <strong>web-one</strong> has been created already.
 
-<h2>Step 1</h2>
+### 1. Install nginx on droplet server
 
+ssh into your web-one server via `ssh -ssh -i ~/.ssh/DO2_key darren@{IP_Address}`
